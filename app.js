@@ -5,7 +5,13 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-    views: ['Main', 'Map'],
+    models: ['Marker', 'Route'],
+
+    stores: ['Routes'],
+
+    views: ['Main', 'Map', 'Routes'],
+
+    controllers: ['Router'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
@@ -16,13 +22,15 @@ Ext.application({
 
     isIconPrecomposed: true,
 
+    phoneStartUpScreen: 'resources/images/loading.png',
+
     startupImage: {
-        '320x460': 'resources/startup/320x460.jpg',
-        '640x920': 'resources/startup/640x920.png',
-        '768x1004': 'resources/startup/768x1004.png',
-        '748x1024': 'resources/startup/748x1024.png',
-        '1536x2008': 'resources/startup/1536x2008.png',
-        '1496x2048': 'resources/startup/1496x2048.png'
+        '320x460': 'resources/images/loading-320x460.png',
+        '640x920': 'resources/images/loading.png',
+        '768x1004': 'resources/images/loading.png',
+        '748x1024': 'resources/images/loading.png',
+        '1536x2008': 'resources/images/loading.png',
+        '1496x2048': 'resources/images/loading.png'
     },
 
     launch: function() {

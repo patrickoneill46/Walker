@@ -3,5 +3,16 @@ Ext.define('Ennis.store.Routes', {
 
 	config: {
 		
+		model: 'Ennis.model.Route',
+		autoLoad: true,
+		proxy: {
+			type: 'ajax',
+            url: 'app/data/data.json',
+            reader: {
+                type: 'json',
+                rootProperty: 'items',
+                idProperty: 'id'
+            }
+		}
 	}
-})
+});

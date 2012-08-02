@@ -1,0 +1,173 @@
+{
+	"items": [
+		{
+			"id": 1,
+			"name": "Route 1 - Red",
+			"desc": "Walk around the main streets of Ennis",
+			"markers": [
+				{
+					"id": 1,
+					"lat": 52.8443831,
+					"long": -8.9827073,
+					"name": "O'Connell Monument"
+				},
+				{
+					"id": 2,
+					"lat": 52.8443701,
+					"long": -8.9828467,
+					"name": "O'Connell Square"
+				},
+				{
+					"id": 3,
+					"lat": 52.8445257,
+					"long": -8.9827824,
+					"name": "Old Courthouse Site"
+				},
+				{
+					"id": 4,
+					"lat": 52.8454264,
+					"long": -8.9816666,
+					"name": "Cruises"
+				},
+				{
+					"id": 5,
+					"lat": 52.8461715,
+					"long": -8.9814198,
+					"name": "Ennis Friary"
+				},
+				{
+					"id": 6,
+					"lat": 52.8464372,
+					"long": -8.9816880,
+					"name": "The Cloister"
+				},
+				{
+					"id": 7,
+					"lat": 52.8460484,
+					"long":-8.9820313,
+					"name": "Memorial Stone"
+				},
+				{
+					"id": 8,
+					"lat": 52.8464307,
+					"long": -8.9822137,
+					"name": "The Club Bridge"
+				},
+				{
+					"id": 9,
+					"lat": 52.8462623,
+					"long": -8.9827609,
+					"name": "The County Club - Bull Hall"
+				},
+				{
+					"id": 10,
+					"lat": 52.8486986,
+					"long": -8.9804113,
+					"name": "The Courthouse"
+				},
+				{
+					"id": 11,
+					"lat": 52.8461197,
+					"long": -8.9841852,
+					"name": "The Presbyterian Church"
+				},
+				{
+					"id": 12,
+					"lat": 52.8461359,
+					"long": -8.9844185,
+					"name": "The County Library"
+				},
+				{
+					"id": 13,
+					"lat": 52.8461651,
+					"long": -8.9846331,
+					"name": "The Local Studies Centre and The Manse"
+				},
+				{
+					"id": 14,
+					"lat": 52.8474189,
+					"long": -8.9853787,
+					"name": "Ennis Grammar School"
+				},
+				{
+					"id": 15,
+					"lat": 52.8459512,
+					"long": -8.9857489,
+					"name": "Bindon Street"
+				},
+				{
+					"id": 16,
+					"lat": 52.8455462,
+					"long": -8.9860332,
+					"name": "St Columba's Church"
+				},
+				{
+					"id": 17,
+					"lat": 52.8438550,
+					"long": -8.9841449,
+					"name": "Harriet Smithson"
+				},
+				{
+					"id": 18,
+					"lat": 52.8437480,
+					"long": -8.9841771,
+					"name": "The Jacobean Chimney"
+				},
+				{
+					"id": 19,
+					"lat": 52.8439943,
+					"long": -8.9841396,
+					"name": "James Barrett"
+				},
+				{
+					"id": 20,
+					"lat": 52.8436573,
+					"long": -8.9841932,
+					"name": "Marcus Keane"
+				},
+				{
+					"id": 21,
+					"lat": 52.8422511,
+					"long": -8.9854002,
+					"name": "Gaurranakilla"
+				},
+				{
+					"id": 22,
+					"lat": 52.8418396,
+					"long": -8.9835817,
+					"name": "Cathedral of St.Peter and Paul"
+				},
+				{
+					"id": 23,
+					"lat": 52.8422997,
+					"long": -8.9832973,
+					"name": "Former Town Hall"
+				},
+				{
+					"id": 24,
+					"lat": 52.8422414,
+					"long": -8.9828682,
+					"name": "Former Town Gaol"
+				},
+				{
+					"id": 25,
+					"lat": 52.8431972,
+					"long": -8.9827126,
+					"name": "Jostle Stones"
+				},
+				{
+					"id": 26,
+					"lat": 52.8446164,
+					"long": -8.9814091,
+					"name": "Clare Museum"
+				}
+			]
+		},
+		{
+			"id": 2,
+		},
+		{
+			"id": 3
+		}
+	]
+}
