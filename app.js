@@ -1,15 +1,16 @@
 Ext.application({
     name: 'Ennis',
+    // my googleApps api AIzaSyDlpGCFNSz5KMeknwL4YxqoV5BpMwuYjnc
 
     requires: [
         'Ext.MessageBox'
     ],
 
-    models: ['Marker', 'Route'],
+    models: ['Leg', 'Marker', 'Route'],
 
-    stores: ['Routes'],
+    stores: ['Legs', 'Routes'],
 
-    views: ['Main', 'Map', 'Routes'],
+    views: ['Directions', 'Main', 'Map', 'Routes'],
 
     controllers: ['Router'],
 

@@ -6,165 +6,225 @@
 			"desc": "Walk around the main streets of Ennis",
 			"markers": [
 				{
+					"id": 0,
+					"lat": 52.844142,
+					"long":-8.982042,
+					"name": "Clare Museum - Start",
+					"desc": "Start Point",
+					"img": "resources/images/claremuseum.jpg"
+				},
+				{
 					"id": 1,
 					"lat": 52.8443831,
 					"long": -8.9827073,
-					"name": "O'Connell Monument"
+					"name": "O'Connell Monument",
+					"desc": "The tall Doric column marks the actual site of the chamber where Daniel O’Connell’s election was announced.",
+					"img": "resources/images/oconnellmonument.jpg"
 				},
 				{
 					"id": 2,
 					"lat": 52.8443701,
 					"long": -8.9828467,
-					"name": "O'Connell Square"
+					"name": "O'Connell Square",
+					"desc": "A huge majority in 1828 elected Daniel O’Connell to the British Parliament in the courthouse that stood on this site. His election forced Britain to lift its bar on Catholic MPs and led to the Act of Catholic Emancipation that was granted on the 13 April 1829.",
+					"img": "resources/images/oconnellsquare.jpg"
 				},
 				{
 					"id": 3,
 					"lat": 52.8445257,
 					"long": -8.9827824,
-					"name": "Old Courthouse Site"
+					"name": "Old Courthouse Site",
+					"desc": "The gable facing you, to the left, contains part of the courthouse’s ashlar façade. If you stand in the square and line up this buttress and Arthur’s Row, you will be able to judge the area covered by the courthouse.",
+					"img": "resources/images/oldcourthouse.jpg"
 				},
 				{
 					"id": 4,
 					"lat": 52.8454264,
 					"long": -8.9816666,
-					"name": "Cruises"
+					"name": "Cruises",
+					"desc": "Cruise house was built in 1658 by the Protestant merchant John Cruce. Under a 1683 bye-law, any individual residing in the Cruise house could evade arrest for debt by claiming sanctuary as this house was located within the old friary precinct.",
+					"img": "resources/images/cruises.jpg"
 				},
 				{
 					"id": 5,
 					"lat": 52.8461715,
 					"long": -8.9814198,
-					"name": "Ennis Friary"
+					"name": "Ennis Friary",
+					"desc":  "The O’Brien Kings of Thomond founded the Franciscan Friary in the 13th century. The Abbey remained in almost continuous use as a church from the 1280s until 1871. The friary was officially suppressed in 1543 but the friars remained under the protection of the O’Briens until 1569. The well-preserved ruins consist of a nave, chancel, belfry and an arcaded cloister. The sacristy is an impressive structure with ribbed, barrel-vaulted ceiling.",
+					"img": "resources/images/ennisfriary.jpg"
 				},
 				{
 					"id": 6,
 					"lat": 52.8464372,
 					"long": -8.9816880,
-					"name": "The Cloister"
+					"name": "The Cloister",
+					"desc": "The Cloister (c14th century) incorporates an area that is part of the adjoining 13th century Ennis Friary. Part of the original medieval cobble floor of the friary survives and there is an integration of 18th and 19th century features within the restoration of the building.",
+					"img": "resources/images/thecloister.jpg"
 				},
 				{
 					"id": 7,
 					"lat": 52.8460484,
 					"long":-8.9820313,
-					"name": "Memorial Stone"
+					"name": "Memorial Stone",
+					"desc":"The 1916 Memorial Stone (1966) was designed by Seán Rowsome to commemorate the fiftieth anniversary of the Easter Rising.",
+					"img": "resources/images/memorialstone.jpg"
 				},
 				{
 					"id": 8,
 					"lat": 52.8464307,
 					"long": -8.9822137,
-					"name": "The Club Bridge"
+					"name": "The Club Bridge",
+					"desc": "The Club Bridge (1835) replaces an earlier three arch structure that was built in the 1690s and demolished in 1835.",
+					"img": "resources/images/clubbridge.jpg"
 				},
 				{
 					"id": 9,
 					"lat": 52.8462623,
 					"long": -8.9827609,
-					"name": "The County Club - Bull Hall"
+					"name": "The County Club - Bull Hall",
+					"desc": "The County Club, Bull Hall (1740s). The landlords of Clare used this residential club from about 1801 until the early 1900s, “provding a meeting and eating place … for Protestants with business in the town”. The complex consists of a series of two and three storey buildings of differing ages.",
+					"img": "resources/images/countyclub.jpg"
 				},
 				{
 					"id": 10,
 					"lat": 52.8486986,
 					"long": -8.9804113,
-					"name": "The Courthouse"
+					"name": "The Courthouse",
+					"desc": "The Courthouse was erected in 1850. It is a quadrangular building with a limestone ashlar façade consisting of an ionic portico and two flanking wings. The Chronicle reported that this, “magnificent and stupendous edifice” would be “a great ornament to Ennis”. The Crimean Cannon, outside the Courthouse, was captured by Irish troops fighting in the imperial British Army, during the Crimean War (1854 – 1856).",
+					"img": "resources/images/courthouse.jpg"
 				},
 				{
 					"id": 11,
 					"lat": 52.8461197,
 					"long": -8.9841852,
-					"name": "The Presbyterian Church"
+					"name": "The Presbyterian Church",
+					"desc": "De Valera (The County) Library is located in the single cell Gothic Revival former Presbyterian Church built in 1853. It opened for worship in 1857 and closed in the early 1960s.",
+					"img": "resources/images/presbyterianchurch.jpg"
 				},
 				{
 					"id": 12,
 					"lat": 52.8461359,
 					"long": -8.9844185,
-					"name": "The County Library"
+					"name": "The County Library",
+					"desc": "The County Library was initially located at 7 Bindon Street when it first opened to the public in 1932. The conversion of the Presbyterian Church in the County Library won it a European architectural award in 1975.",
+					"img": "resources/images/countylibrary.jpg"
 				},
 				{
 					"id": 13,
 					"lat": 52.8461651,
 					"long": -8.9846331,
-					"name": "The Local Studies Centre and The Manse"
+					"name": "The Local Studies Centre and The Manse",
+					"desc": "The Manse (1857) was built for Rev. Thomas Warren, a Presbyterian missionary from the United States. This is where the Local Studies Centre (1988) is based. As a reference library and research centre it holds a comprehensive collection of resource material on the geneological, history, archaeology and topography of Ennis and County Clare.",
+					"img": "resources/images/manse.jpg"
 				},
 				{
 					"id": 14,
 					"lat": 52.8474189,
 					"long": -8.9853787,
-					"name": "Ennis Grammar School"
+					"name": "Ennis Grammar School",
+					"desc": "Ennis Grammer School (1775-1891) now Maoin Cheoil an Chláir, opened in the former Erasmus Smith Academy in 1993. The building is a detached multiple-bay three-storey building with a steeply pitched roof with four large rendered chimney stacks.",
+					"img": "resources/images/grammarschool.jpg"
 				},
 				{
 					"id": 15,
 					"lat": 52.8459512,
 					"long": -8.9857489,
-					"name": "Bindon Street"
+					"name": "Bindon Street",
+					"desc": "Bindon Street is named after the Bindon’s of Clooney. Francis Bindon (1695-1765) was the architect who pioneered Palladian-style architecture in Ireland. Bindon Steet was established in Georgain times and almost completed by a tontine company during the reign of Queen Victoria. Bindon Street was built in two phases. The first houses built here were numbers 3, 4, 5 and 6. Captain Charles Hervy Bagot wrote that he had designed, “four handsome houses of 24 feet front equal to London or Dublin second-rate houses”. These four houses were completed by 1833. The houses are terraced Georgian-style townhouses.",
+					"img": "resources/images/bindonstreet.jpg"
 				},
 				{
 					"id": 16,
 					"lat": 52.8455462,
 					"long": -8.9860332,
-					"name": "St Columba's Church"
+					"name": "St Columba's Church",
+					"desc": "St Columba’s Church was built between 1868 and 1871 under the patronage of the Church of Ireland. The asymmetrical-plan French-Gothic style church is built on a site donated by the Bindon Blood family. The interior of the church is fairly plain and rusticated providing a foil for the works of Catherine Amelia O’Brien and Rose Brigid Ganley. The memorial window to General Sir Bindon Blood. He was Sir Winston Churchill’s Commanding Officer in North-West India at the end of the 19th century. Catherine Amelia O’Brien (1881-1963) was a stained glass and mosaic artist who was born at Spancilhill, Ennis. Her work was commissioned by a number of churches throughout Ireland. Her memorial to her parents, here at St. Columba’s Church, depicts St. Patrick and St. Brigid. It consists of 24 mosaics representing the Apostles and Irish staints. The images are divided by white marble columns and occupy the entire length of the reredos of the church. In the north porch can be seen two small windows representing Mary and Martha, symbols of work and worship, which are memorials to her three sisters who were baptised in the church.",
+					"img": "resources/images/columbaschurch.jpg"
 				},
 				{
 					"id": 17,
 					"lat": 52.8438550,
 					"long": -8.9841449,
-					"name": "Harriet Smithson"
+					"name": "Harriet Smithson",
+					"desc": "Harriet Smithson was the composer, Hector Berlioz, first wife and was born here, 6 High Street. Harriet’s debut was at the Cron St Theatre in Dublin in 1815 and by 1818 she was appearing at the Drury Lane in London. In 1827 she took the role of leading lady with the English Shakespeare Company, at the Odeon Theatre in Paris. On Harriet Smithson’s death Liszt sent Berlioz his condolences: “She inspired you, you loved her and sang your love for her, her mission was fulfilled”.",
+					"img": "resources/images/harrietsmithson.jpg"
 				},
 				{
 					"id": 18,
 					"lat": 52.8437480,
 					"long": -8.9841771,
-					"name": "The Jacobean Chimney"
+					"name": "The Jacobean Chimney",
+					"desc": "As you look northwards you will see the 19th century shop front of McParland’s (locally known as Ms Irene Clune’s house) that is reputed to be the oldest inhabited building in Ennis. Tradition maintains that it was the residence of the Catholic Bishop of Killaloe during the Penal Period. The rare triple-diamond Jacobean stone chimney stack dates the building to 1580-1650. Archaeological excavation has revealed a number of oak timber beams that have been dated to the late 16th century placing this as the earliest surviving example of a timber-framed house in Ireland.",
+					"img": "resources/images/jacobeanchimney.jpg"
 				},
 				{
 					"id": 19,
 					"lat": 52.8439943,
 					"long": -8.9841396,
-					"name": "James Barrett"
+					"name": "James Barrett",
+					"desc": "James Barrett (1722-1808) served as the parish priest of Ennis from 1762-1808.",
+					"img": "resources/images/jamesbarrett.jpg"
 				},
 				{
 					"id": 20,
 					"lat": 52.8436573,
 					"long": -8.9841932,
-					"name": "Marcus Keane"
+					"name": "Marcus Keane",
+					"desc": "Marcus Keane (1815-1883) was in born in Chapel Lane. He was an Irish speaking local landholder and land agent who was known as The Exterminator General of Clare due to his career in the eviction of smallholders.",
+					"img": "resources/images/marcuskeane.jpg"
 				},
 				{
 					"id": 21,
 					"lat": 52.8422511,
 					"long": -8.9854002,
-					"name": "Gaurranakilla"
+					"name": "Gaurranakilla",
+					"desc": "Gaurranakilla, the grove of the church, was the town’s earliest ecclesiastical site. The actual church was demolished in the 1830s, possibly after the graveyard was closed.",
+					"img": "resources/images/gaurranakilla.jpg"
 				},
 				{
 					"id": 22,
 					"lat": 52.8418396,
 					"long": -8.9835817,
-					"name": "Cathedral of St.Peter and Paul"
+					"name": "Cathedral of St.Peter and Paul",
+					"desc": "By the early years of the 19th century, the Catholic chapel in Chapel Lane was too small and in 1821 a parochial meeting decided to build a new chapel. Francis Gore, a Protestant, donated the site in 1828. Dominic Madden designed the limestone ashlar Cathedral of Sts. Peter and Paul. Work began in 1831, and though incomplete, the Cathedral opened for worship in 1842. Work on the base tower started before the famine, but the spires and porches were not built until 1871. The original façade has been partially obscured by the later added porches and spires, but the doorways can still be seen from the inside. The parish church became a cathedral church in 1889 when, the Bishop of Killaloe, Thomas McRedmond took up residence in Ennis. As it was not specially built for this purpose it was called a pro-cathedral until 1990 when Bishop Harty presided over the dedication of the cathedral and altar.",
+					"img": "resources/images/cathedral.jpg"
 				},
 				{
 					"id": 23,
 					"lat": 52.8422997,
 					"long": -8.9832973,
-					"name": "Former Town Hall"
+					"name": "Former Town Hall",
+					"img": "resources/images/formertownhall.jpg",
+					"desc": "The Old Ground Hotel dates from the early 1700s and was built as a private dwelling that was leased by Charles Mahon for “three lives”. When Charles Jane MacNamara converted the Georgian residence into a hotel in 1895. Sinn Fein used the hotel as their campaign headquarters from 1917 onwards. This was during the famous election of that year that launched Eamon de Valera’s political career. The Old Ground Hotel’s association with Sinn Fein lead to the building being ransacked and the furniture burnt by the Black and Tans and the Royal Irish Constabulary in 1920. Harry Mills, manager of Bannatynes’ Mills, entertained the crowd with a rendition of God Save the Queen before the piano was put on the flames also."
 				},
 				{
 					"id": 24,
 					"lat": 52.8422414,
 					"long": -8.9828682,
-					"name": "Former Town Gaol"
+					"name": "Former Town Gaol",
+					"desc": "The Town Hall, now a part of the Old Ground Hotel, occupies the site of the old jail. The jail built in 1813, and extended several times, had yards and a heptagon-shaped cell-block arrangement radiating out from a central administration building. Prisoners were largely either debtors, convicts sentenced by the assizes, many awaiting transportation to Australia, or short-stay prisoners held for petty offences. Among the later number the town’s prostitutes figured often, as they deliberately committed crimes in order to obtain access to medical treatment as the services of the county infirmary was confined to the respectable. In former times there was a bridge leading from an upper window of the town hall across the street to an exercise ground for the prisoners. Beneath the carpeted floors, excavations revealed dungeons under the building, the chains attached to the walls – are now in Clare Museum.",
+					"img": "resources/images/formergaol.jpg"
 				},
 				{
 					"id": 25,
 					"lat": 52.8431972,
 					"long": -8.9827126,
-					"name": "Jostle Stones"
+					"name": "Jostle Stones",
+					"desc": "Jostle Stones on the corner of Cooke’s Lane off O’Connell Street prevented damage to building walls from passing horse-drawn carriages. As is evident even today, the medieval layout of Ennis with its narrow streets and laneways gave little leeway for manoeuving with the horse.",
+					"img": "resources/images/jostlestones.jpg"
 				},
 				{
 					"id": 26,
 					"lat": 52.8446164,
 					"long": -8.9814091,
-					"name": "Clare Museum"
+					"name": "Clare Museum",
+					"desc": "Clare Museum. Row House, now Temple Gate Hotel, is where Daniel O’Connell planned his historic election campaign. In 1853 it was renovated for the Convent of Mercy. The Convent was extended to include a gable-fronted Gothic Revival Chapel, with stained glass window by Meyer of Munich and hammer beam roof. The property was divided into two sections: the wing on the left now houses the Tourist Information and Clare Museum.",
+					"img": "resources/images/claremuseum.jpg"
 				}
 			]
 		},
 		{
-			"id": 2,
+			"id": 2
 		},
 		{
 			"id": 3
