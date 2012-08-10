@@ -58,6 +58,57 @@ Ext.define('Ennis.controller.Router', {
 			travelMode: 'WALKING',
 		};
 
+		/**
+		var mOpt = {
+			animation: null,
+			clickable: true,
+			draggable: false,
+			map: map,
+			position: new google.maps.LatLng(52.8437480, -8.9841771),
+			icon: new google.maps.MarkerImage('resources/images/ennis.png')
+		};
+		customMarker = new google.maps.Marker(mOpt);
+
+		infoOpts = {
+			content: '<div>This is where the short narrative <br />' +
+				'will <b>appear</b></div>'
+		};
+		infoWin = new google.maps.InfoWindow(infoOpts);
+		**/
+
+
+		markers.forEach(function(marker,index){
+
+
+			var mOpt = {
+				animation: 'BOUNCE',
+				clickable: true,
+				draggable: false,
+				map: map,
+				position: new google.maps.LatLng(marker.data.lat, marker.data.long),
+				icon: new google.maps.MarkerImage('resources/images/ennis.png')
+			};
+			
+			var infoOpts = {
+				content: '<div class="markerInfo">'+ marker.data.desc + '</div>',
+				pane: "mapPane"
+			};
+			var infoWin = new google.maps.InfoWindow(infoOpts);
+
+			var customMarker = new google.maps.Marker(mOpt);
+
+			google.maps.event.addListener(customMarker, 'click', function() {
+				infoWin.open(map,customMarker);
+			});
+
+			google.maps.event.addListener(infoWin, 'click', function (){
+				console.log('closing window');
+				//	infoWin.close();
+			});
+		});
+
+	 	
+
 		ds = new google.maps.DirectionsService();
 		ds.route(request, function(response, status) {
 
@@ -69,8 +120,7 @@ Ext.define('Ennis.controller.Router', {
 		  	}
 
 		  	self.createLeg(markers[self.getCurrentPoint()], markers[self.getNextPoint()],response);
-		});
-
+		});	
 	},
 
 	nextPoint: function() {
@@ -138,62 +188,6 @@ Ext.define('Ennis.controller.Router', {
 	loadRoute: function(index){
 		var self = this,
 			store = Ext.getStore('Routes');
-	},
-
-	renderRoute: function (index) {
-
-		var self = this,
-			store = Ext.getStore('Routes'),//var route = store.getAt(index);	
-			route = store.getAt(0),///hardcoding for the first route, will add the other 4 later
-			waypoints = [],
-			map = self.getMap().getMap(),
-			directionsRenderer = new google.maps.DirectionsRenderer();
-		
-		globalRouteVar = store.getAt(0);//comment out later!!!
-		globalMap = self.getMap();//comment out later!!!
-		globalWaypoints = waypoints;
-
-		directionsRenderer.setMap(map);
-
-		markers = route.getMarkers();
-		markers.each(function(marker){
-			console.log(marker);
-			var wptLatLng = new google.maps.LatLng(marker.data.lat, marker.data.lat);
-			//waypoints.push(marker);
-			var waypoint = {
-				location: wptLatLng,
-				stopover: true
-			};
-			waypoints.push(waypoint);
-		});
-		var origin = new google.maps.LatLng(markers.first().data.lat, markers.first().data.long);
-		var destination = new google.maps.LatLng(markers.last().data.lat, markers.last().data.long);
-		waypoints.splice(0,1);
-		waypoints.splice((waypoints.length-1),1 )
-
-
-
-		var request = {
-			origin: origin,
-			destination: destination,
-			travelMode: 'WALKING',
-			waypoints: waypoints,
-			//map: map
-			//map: Ext.getCmp('navigationmap').getMap()
-		};
-
-		ds = new google.maps.DirectionsService();
-		ds.route(request, function(response, status) {
-			//console.log(results, status);
-			//google.maps.DirectionsRenderer().setMap(self.getMap());
-			//google.maps.DirectionsRenderer().setDirections(results);
-			console.log(response);
-			if (status == google.maps.DirectionsStatus.OK) {
-	    	directionsRenderer.setDirections(response);
-		  	} else {
-	 	    	alert('Error: ' + status);
-		  	}
-		});
 	},
 
 	routeToStartPoint: function (route){

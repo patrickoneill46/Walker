@@ -33,7 +33,7 @@ Ext.define('Ennis.view.Map', {
    				xtype: 'map',
     			mapOptions: {
     				center: new google.maps.LatLng(52.8443831, -8.982707300000015),
-    				zoom: 17
+    				zoom: 18
     			},
     			id: 'navigationmap',
     			listeners: [
@@ -48,7 +48,7 @@ Ext.define('Ennis.view.Map', {
 
     				console.log('rendering map');
     				var self = this;
-    				self.getMap().setZoom(17);
+    				//self.getMap().setZoom(17);
     				var directionsRenderer = new google.maps.DirectionsRenderer();
 		        }
 			}

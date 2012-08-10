@@ -5,6 +5,7 @@ Ext.define('Ennis.view.Routes', {
 	config: {
 		title: 'Routes',
 		iconCls:'search',
+		cls: 'routeselection',
 		layout: {
 			type: 'vbox'
 		},
@@ -19,7 +20,8 @@ Ext.define('Ennis.view.Routes', {
 			{
 				xtype: 'panel',
 				id: 'redpanel',
-				style: 'background-color: red',
+				//style: 'background-color: red',
+				style: 'background-color: #EB8383; opacity: 0.5;',
 				flex: 1,
 				items: [
 					{
@@ -33,13 +35,13 @@ Ext.define('Ennis.view.Routes', {
 			{
 				xtype: 'panel',
 				id: 'whitepanel',
-				style: 'background-color: white',
+				style: 'background-color: white; opacity: 0.5',
 				flex: 1
 			},
 			{
 				xtype: 'panel',
 				id: 'yellowpanel',
-				style: 'background-color: yellow',
+				style: 'background-color: yellow; opacity: 0.5',
 				flex: 1
 			}
 		]
