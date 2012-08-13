@@ -10,6 +10,7 @@ Ext.define("Ennis.view.Main", {
     xtype: 'mainpanel',
     config: {
         tabBarPosition: 'bottom',
+        id: 'mainpanel',
         //id: 'mainpanel',
         items: [
             {

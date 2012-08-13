@@ -15,7 +15,24 @@ Ext.define('Ennis.view.Routes', {
 				xtype: 'titlebar',
 				title: 'Routes',
 				docked: 'top',
-				//flex: 1
+				//flex: 1,
+				items: [
+					{
+						xtype: 'button',
+						text: 'Show Route',
+						action: 'showRoute'
+					},
+					{
+						xtype: 'button',
+						text: 'Remove Markers',
+						action: 'removeMarkers'
+					},
+					{
+						xtype: 'button',
+						text: 'Show Location',
+						action: 'showLocation'
+					}
+				]
 			},
 			{
 				xtype: 'panel',

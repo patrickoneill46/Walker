@@ -91,7 +91,7 @@ Ext.define('Ennis.controller.Router', {
 			
 			var infoOpts = {
 				content: '<div class="markerInfo">'+ marker.data.desc + '</div>',
-				pane: "mapPane"
+				pane: 'floatPane'
 			};
 			var infoWin = new google.maps.InfoWindow(infoOpts);
 
@@ -103,7 +103,7 @@ Ext.define('Ennis.controller.Router', {
 
 			google.maps.event.addListener(infoWin, 'click', function (){
 				console.log('closing window');
-				//	infoWin.close();
+				infoWin.close();
 			});
 		});
 

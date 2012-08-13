@@ -7,6 +7,7 @@ Ext.define('Ennis.view.Map', {
 
 	config: {
 		iconCls: 'user',
+		id: 'mappanel',
 		title: 'Map',
 		layout: 'fit',
 		items: [
@@ -33,7 +34,8 @@ Ext.define('Ennis.view.Map', {
    				xtype: 'map',
     			mapOptions: {
     				center: new google.maps.LatLng(52.8443831, -8.982707300000015),
-    				zoom: 18
+    				zoom: 18,
+    				//mapTypeId: 'TERRAIN'
     			},
     			id: 'navigationmap',
     			listeners: [

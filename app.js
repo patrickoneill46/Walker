@@ -6,13 +6,13 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-    models: ['Leg', 'Marker', 'Route'],
+    models: ['Leg', 'Marker', 'Point', 'Route'],
 
-    stores: ['Legs', 'Routes'],
+    stores: ['Legs', 'Points', 'Routes'],
 
     views: ['Directions', 'Main', 'Map', 'Routes'],
 
-    controllers: ['Router'],
+    controllers: ['Router', 'Map'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
