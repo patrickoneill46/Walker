@@ -4,11 +4,10 @@ Ext.define('Ennis.store.Points', {
 
 	config: {
 		model: 'Ennis.model.Point',
-
 		autoLoad: true,
 		proxy: {
 			type: 'ajax',
-            url: 'app/data/markers.json',
+            url: 'app/data/points.json',
             reader: {
                 type: 'json',
                 rootProperty: 'items',
@@ -17,19 +16,11 @@ Ext.define('Ennis.store.Points', {
 		}
 	},
 
-	getRoute: function (route){
+	getRoute: function(points){
+
 		var self = this;
-		Pointstore = self;
-		console.log(self);
-		//return 'hello';
-
-		self.filterBy(function (record, id){
-			console.log('starting filter');
-			for(var i = 0; i < record.data.routes.length; i++) {
-				console.log(record.data.routes[0]);
-
-			}
-			return true;
-		});
+		//points is an array of unique id's of points that make up a walk
+		
 	}
-})
+
+});

@@ -3,6 +3,7 @@ Ext.define('Ennis.view.Detail', {
 
 	config: {
 		iconCls: 'user',
+		point: undefined,
 		
 	}
 })

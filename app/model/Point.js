@@ -9,7 +9,10 @@ Ext.define('Ennis.model.Point', {
 			{name: 'name', type: 'String'},
 			{name: 'desc', type: 'String'},
 			{name: 'img', type: 'String'},
-			{name: 'routes', type: 'auto'}
+			{name: 'redIndex', type: 'number'},
+			{name: 'whiteIndex', type: 'number'},
+			{name: 'yellowIndex', type: 'number'},
+			{name: 'blueIndex', type:'number'}	
 		],
 
 		idProperty: 'id',

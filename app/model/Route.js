@@ -6,20 +6,11 @@ Ext.define('Ennis.model.Route', {
 		fields: [
 			{name: 'id', type: 'number'},
 			{name: 'name', type: 'string'},
-			{name: 'desc', type: 'string'}
+			{name: 'length', type: 'string'},
+			{name: 'desc', type: 'string'},
+			{name: 'points', type: 'auto'}
 		],
 
 		idProperty: 'id',
-
-		associations: [
-			{
-				type: 'hasMany',
-				model: 'Ennis.model.Marker',
-				associationKey: 'markers',
-				name: 'getMarkers',
-				autoLoad: true,
-			}
-
-		]
 	}
 })
