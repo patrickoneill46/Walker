@@ -10,7 +10,7 @@ Ext.application({
 
     stores: ['Legs', 'Points', 'Routes'],
 
-    views: ['Directions', 'Main', 'Map', 'Routes'],
+    views: ['Detail', 'Directions', 'Main', 'Map', 'Routes'],
 
     controllers: ['Router', 'Map'],
 
@@ -38,9 +38,26 @@ Ext.application({
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
 
+        
         // Initialize the main view
         Ext.Viewport.add(Ext.create('Ennis.view.Main'));
+
+        Ext.Viewport.on('cardswitch', function(newCard, oldCard){
+            console.log('cardswitch event');
+        });
+
+        Ext.Viewport.onAfter('activeitemchange', function() {
+            
+            if(Ext.Viewport.getActiveItem()!==Ext.getCmp('detailpanel')){
+                console.log('hello');
+                //Ext.Viewport.remove(Ext.getCmp('detailpanel'));
+                //Ext.Viewport.destroy();
+                //Ext.getCmp('detailpanel').destroy();
+            }   
+        });
     },
+
+
 
     onUpdated: function() {
         Ext.Msg.confirm(

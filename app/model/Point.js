@@ -12,7 +12,8 @@ Ext.define('Ennis.model.Point', {
 			{name: 'redIndex', type: 'number'},
 			{name: 'whiteIndex', type: 'number'},
 			{name: 'yellowIndex', type: 'number'},
-			{name: 'blueIndex', type:'number'}	
+			{name: 'blueIndex', type:'number'},
+			{name: 'visited', type: 'boolean'}
 		],
 
 		idProperty: 'id',

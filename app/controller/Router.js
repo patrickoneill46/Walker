@@ -15,17 +15,26 @@ Ext.define('Ennis.controller.Router', {
 			map: '#navigationmap',
 			mapPanel: 'mapview',
 			mapInfo: 'mapinfo',
+			pointsList: '#pointslist'
 			//route: ''
 		},
 
 		control: {
-			'button[action=startRoute]': {
+			'button[action=filter]': {
 				//tap: 'renderRoute',
-				tap: 'startRoute'
+				tap: 'route'
 			},
 
 			'button[action=nextPoint]': {
 				tap: 'nextPoint'
+			},
+
+			'button[action=closeDetail]': {
+				tap: 'closeDetail'
+			},
+
+			pointsList: {
+				itemtap: 'showDetail',
 			}
 		},
 
@@ -198,9 +207,65 @@ Ext.define('Ennis.controller.Router', {
 	checkDistanceToWayPoint: function (waypoint) {
 
 		//if distance between device and waypoint is less than x-meters, then return true and set current point
+	},
+
+	route: function(button){
+		
+		var routeStore = Ext.getStore('Routes'),
+			index = routeStore.find('name', button.config.route),
+			route = routeStore.getAt(index),
+			points = route.data.points,
+			pointsStore = Ext.getStore('Points'),
+			list = Ext.getCmp('pointslist');
+
+		pointsStore.setSorters({property: (route.data.name+'Index'), direction: 'ASC'});
+		list.setItemTpl('<b>{' + route.data.name + 'Index} {name}</b>');
+
+		pointsStore.clearFilter();
+		pointsStore.filterBy(function(record){
+			//console.log('starting filter')
+
+			if (route.data.points.indexOf(record.data.id) !== -1){
+				//console.log('match found')
+				return record;
+			}
+		});			
+	},
 
 
+	showDetail: function (list, index, target,record) {
+		console.log(index, 	record);
 
+		var pointsStore = Ext.getStore('Points'),
+			index = pointsStore.find('id', record.data.id),
+			point = pointsStore.getAt(index);
+
+		var detail = {
+			xtype: 'detailpanel',
+			point: point
+		};
+		//var detail = 
+		Ext.Viewport.add(detail);
+		//Ext.Viewport.add(Ext.create('Ennis.view.Detail', {point: point}));
+		Ext.Viewport.animateActiveItem(1, {type: 'slide', direction: 'left'});
+	},
+
+	closeDetail: function (button){
+		console.log('close');
+		var self=this;
+		afterFn = this.destroyDetailPanel();
+		Ext.Viewport.animateActiveItem(0, {type: 'slide', direction: 'right', after: afterFn});
+
+		//this.destroyDetailPanel();
+		//Ext.Viewport.items.items[1].destroy();
+		//panel.destroy();
+	},
+
+	destroyDetailPanel: function(){
+		console.log('destroyingdetailpanel');
+		//Ext.Viewport.items.items[1].destroy();
+		Ext.Viewport.remove(Ext.getCmp('detailpanel'));
+		//Ext.getCmp('detailpanel').destroy();
 	}
 	
 })

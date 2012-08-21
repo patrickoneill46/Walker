@@ -5,7 +5,8 @@ Ext.define("Ennis.view.Main", {
         'Ext.Video',
         'Ennis.view.Map',
         'Ennis.view.Routes',
-        'Ennis.view.Directions'
+        'Ennis.view.Directions',
+        'Ennis.view.Points'
     ],
     xtype: 'mainpanel',
     config: {
@@ -21,6 +22,9 @@ Ext.define("Ennis.view.Main", {
             },
             {
                 xtype: 'directionspanel'
+            },
+            {
+                xtype: 'pointsview'
             }
         ]
     }

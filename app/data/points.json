@@ -10,7 +10,8 @@
 			"redIndex": 0,
 			"whiteIndex": 0,
 			"yellowIndex": 0,
-			"blueIndex": 0
+			"blueIndex": 0,
+			"visited": false
 		},
 		{
 			"id": 1,
@@ -18,11 +19,12 @@
 			"long": 0,
 			"name": "O'Connel Monument",
 			"desc": "O’Connell Monument (1865-1867). The tall Doric column marks the actual site of the chamber where Daniel O’Connell’s election was announced.",
-			"img": "resources/images/oconnellmonument.png",
+			"img": "resources/images/oconnelmonument.jpg",
 			"redIndex": 1,
 			"whiteIndex": 1,
 			"yellowIndex": 33,
-			"blueIndex": 1
+			"blueIndex": 1,
+			"visited": false
 		},
 		{
 			"id": 2,
@@ -34,7 +36,8 @@
 			"redIndex": 2,
 			"whiteIndex": 2,
 			"yellowIndex": 32,
-			"blueIndex": 2
+			"blueIndex": 2,
+			"visited": false
 		},
 		{
 			"id": 3,
@@ -46,7 +49,8 @@
 			"redIndex": 3,
 			"whiteIndex": 3,
 			"yellowIndex": 31,
-			"blueIndex": 3
+			"blueIndex": 3,
+			"visited": false
 		},
 		{
 			"id": 4,
@@ -59,6 +63,7 @@
 			"whiteIndex": 4,
 			"yellowIndex": 30,
 			"blueIndex": 4,
+			"visited": false
 		},
 		{
 			"id": 5,
@@ -71,6 +76,7 @@
 			"whiteIndex": 5,
 			"yellowIndex": 29,
 			"blueIndex": 5,
+			"visited": false
 		},
 		{
 			"id": 6,
@@ -83,6 +89,7 @@
 			"whiteIndex": 6,
 			"yellowIndex": 28,
 			"blueIndex": 6,
+			"visited": false
 		},
 		{
 			"id": 7,
@@ -95,6 +102,7 @@
 			"whiteIndex": 7,
 			"yellowIndex": 27,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 8,
@@ -107,6 +115,7 @@
 			"whiteIndex": 8,
 			"yellowIndex": 25,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 9,
@@ -119,6 +128,7 @@
 			"whiteIndex": 9,
 			"yellowIndex": 26,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 10,
@@ -131,6 +141,7 @@
 			"whiteIndex": 10,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 11,
@@ -143,6 +154,7 @@
 			"whiteIndex": 11,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 12,
@@ -155,6 +167,7 @@
 			"whiteIndex": 12,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 13,
@@ -167,6 +180,7 @@
 			"whiteIndex": 13,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 14,
@@ -179,6 +193,7 @@
 			"whiteIndex": 14,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 15,
@@ -191,6 +206,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 16,
@@ -203,6 +219,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 17,
@@ -215,6 +232,7 @@
 			"whiteIndex": 26,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 18,
@@ -227,6 +245,7 @@
 			"whiteIndex": 27,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 19,
@@ -239,6 +258,7 @@
 			"whiteIndex": 28,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 20,
@@ -251,6 +271,7 @@
 			"whiteIndex": 29,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 21,
@@ -263,6 +284,7 @@
 			"whiteIndex": 30,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 22,
@@ -274,7 +296,8 @@
 			"redIndex": 22,
 			"whiteIndex": 31,
 			"yellowIndex": null,
-			"blueIndex": null,
+			"blueIndex": 6,
+			"visited": false
 		},
 		{
 			"id": 23,
@@ -286,7 +309,8 @@
 			"redIndex": 23,
 			"whiteIndex": 32,
 			"yellowIndex": null,
-			"blueIndex": null,
+			"blueIndex": 5,
+			"visited": false
 		},
 		{
 			"id": 24,
@@ -298,7 +322,8 @@
 			"redIndex": 24,
 			"whiteIndex": 33,
 			"yellowIndex": null,
-			"blueIndex": null,
+			"blueIndex": 4,
+			"visited": false
 		},
 		{
 			"id": 25,
@@ -310,7 +335,8 @@
 			"redIndex": 25,
 			"whiteIndex": 34,
 			"yellowIndex": null,
-			"blueIndex": null,
+			"blueIndex": 3,
+			"visited": false
 		},
 		{
 			"id": 26,
@@ -323,6 +349,7 @@
 			"whiteIndex": 15,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 26,
@@ -335,6 +362,7 @@
 			"whiteIndex": 15,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 27,
@@ -347,6 +375,7 @@
 			"whiteIndex": 16,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 28,
@@ -359,6 +388,7 @@
 			"whiteIndex": 17,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 29,
@@ -371,6 +401,7 @@
 			"whiteIndex": 18,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 30,
@@ -383,6 +414,7 @@
 			"whiteIndex": 19,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 31,
@@ -395,6 +427,7 @@
 			"whiteIndex": 20,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 32,
@@ -407,6 +440,7 @@
 			"whiteIndex": 21,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 33,
@@ -419,6 +453,7 @@
 			"whiteIndex": 22,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 34,
@@ -431,6 +466,7 @@
 			"whiteIndex": 23,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 35,
@@ -443,6 +479,7 @@
 			"whiteIndex": 23,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 36,
@@ -455,6 +492,7 @@
 			"whiteIndex": 24,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 37,
@@ -467,6 +505,7 @@
 			"whiteIndex": 25,
 			"yellowIndex": null,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 38,
@@ -479,6 +518,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 3,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 39,
@@ -491,6 +531,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 4,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 40,
@@ -503,6 +544,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 5,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 41,
@@ -515,6 +557,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 6,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 42,
@@ -527,6 +570,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 7,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 43,
@@ -539,6 +583,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 8,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 44,
@@ -551,6 +596,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 9,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 45,
@@ -563,6 +609,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 10,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 46,
@@ -575,6 +622,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 11,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 47,
@@ -587,6 +635,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 12,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 48,
@@ -599,6 +648,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 13,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 49,
@@ -611,6 +661,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 14,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 50,
@@ -623,6 +674,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 14,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 51,
@@ -635,6 +687,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 15,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 52,
@@ -647,6 +700,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 16,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 53,
@@ -659,6 +713,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 17,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 54,
@@ -671,6 +726,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 18,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 55,
@@ -683,6 +739,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 19,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 56,
@@ -695,6 +752,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 20,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 57,
@@ -707,6 +765,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 21,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 58,
@@ -719,6 +778,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 22,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 59,
@@ -731,6 +791,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 23,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 60,
@@ -743,6 +804,7 @@
 			"whiteIndex": null,
 			"yellowIndex": 24,
 			"blueIndex": null,
+			"visited": false
 		},
 		{
 			"id": 61,
@@ -755,6 +817,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 7,
+			"visited": false
 		},
 		{
 			"id": 62,
@@ -767,6 +830,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 8,
+			"visited": false
 		},
 		{
 			"id": 63,
@@ -779,6 +843,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 9,
+			"visited": false
 		},
 		{
 			"id": 64,
@@ -791,6 +856,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 10,
+			"visited": false
 		},
 		{
 			"id": 65,
@@ -803,6 +869,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 11,
+			"visited": false
 		},
 		{
 			"id": 66,
@@ -815,6 +882,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 12,
+			"visited": false
 		},
 		{
 			"id": 67,
@@ -827,6 +895,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 13,
+			"visited": false
 		},
 		{
 			"id": 68,
@@ -839,6 +908,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 14,
+			"visited": false
 		},
 		{
 			"id": 69,
@@ -851,6 +921,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 15,
+			"visited": false
 		},
 		{
 			"id": 70,
@@ -863,6 +934,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 16,
+			"visited": false
 		},
 		{
 			"id": 71,
@@ -875,6 +947,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 17,
+			"visited": false
 		},
 		{
 			"id": 72,
@@ -887,6 +960,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 18,
+			"visited": false
 		},
 		{
 			"id": 73,
@@ -899,6 +973,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 19,
+			"visited": false
 		},
 		{
 			"id": 74,
@@ -911,6 +986,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 20,
+			"visited": false
 		},
 		{
 			"id": 75,
@@ -923,6 +999,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 21,
+			"visited": false
 		},
 		{
 			"id": 76,
@@ -935,6 +1012,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 22,
+			"visited": false
 		},
 		{
 			"id": 77,
@@ -947,6 +1025,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 23,
+			"visited": false
 		},
 		{
 			"id": 78,
@@ -959,6 +1038,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 24,
+			"visited": false
 		},
 		{
 			"id": 79,
@@ -971,6 +1051,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 25,
+			"visited": false
 		},
 		{
 			"id": 80,
@@ -983,6 +1064,7 @@
 			"whiteIndex": null,
 			"yellowIndex": null,
 			"blueIndex": 26,
+			"visited": false
 		}
 	]
 }
